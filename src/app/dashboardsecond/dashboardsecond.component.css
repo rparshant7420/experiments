@@ -1,0 +1,70 @@
+
+/* navbar  */
+.navtile{
+  height: 64px;
+}
+.right
+{
+  margin-left: auto;
+}
+li.white a{
+  color: white !important;
+  font-size: 18px;
+
+}
+li.white a:hover,
+ul.right:hover
+{
+  color: blue !important;
+}
+.logo{
+  font-weight: bold;
+}
+.logo:hover{
+  color: blue !important;
+
+}
+/* nav ul li a img
+{
+  filter: grayscale(100%);
+
+} */
+
+/* content below  */
+
+.main{
+  color: #17a2b8;
+  font-size: 25px;
+  font-weight: 600;
+}
+.maindiv{
+  margin-top: 48px;
+  margin-left: 168px;
+}
+.first{
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+/* experience credentials */
+
+.addhead{
+font-size: 25px;
+font-weight: 500;
+}
+table{
+  width: 60%;
+}
+.exp button {
+  background-color: red;
+  color: #fff;
+}
+.edu button {
+  background-color: red;
+  color: #fff;
+}
+.butn {
+  background-color: red;
+  color: #fff;
+}
+

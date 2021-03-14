@@ -1,0 +1,46 @@
+mat-card
+{
+
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+mat-form-field{
+width: 100%;
+}
+/* sign in  */
+.up{
+  color: #17a2b8;
+  font-size: 3rem;
+  font-weight: bold;
+}
+p{
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 38px;
+}
+/* navbar  */
+.navtile{
+  height: 64px;
+}
+.right
+{
+  margin-left: auto;
+}
+li.white a{
+  color: white !important;
+  font-size: 18px;
+
+}
+li.white a:hover,
+ul.right:hover
+{
+  color: blue !important;
+}
+.logo{
+  font-weight: bold;
+}
+.logo:hover{
+  color: blue !important;
+
+}

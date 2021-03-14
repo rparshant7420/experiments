@@ -1,0 +1,116 @@
+                     <!-- navbar   -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark navtile">
+  <a href="/" class="navbar-brand logo">&lt;/&gt;DevConnecter</a>
+  <ul class="nav justify-content-end right">
+    <li class="nav-item white">
+      <a href="#" class="nav-link"> Developer</a>
+    </li>
+    <li class="nav-item white" >
+      <a href="posts" class="nav-link">Post</a>
+    </li>
+    <li class="nav-item white">
+      <a href="dashboardsecond" class="nav-link">   Dashboard</a>
+      <!-- <img src="assets/lgologin.png" alt="logo"> -->
+    </li>
+    <li class="nav-item white">
+      <a href="signin" class="nav-link">Logout</a>
+    </li>
+  </ul>
+</nav>
+
+<!-- heading -->
+<div class="mainhead">
+  <div class=" main">
+    Create Your Profile
+  </div><br><br>
+  <div class="first"><img src="assets/lgologin.png"> Let's get some information to make your profile stand out</div> <br>
+
+  <form >
+    <mat-card>
+      <!-- <mat-form-field >
+        <mat-label>Select Professional Status</mat-label>
+        <mat-select>
+         <mat-option>
+           Developer
+         </mat-option>
+         <mat-option>
+           Junior Developer
+         </mat-option>
+         <mat-option>
+           Senior Developer
+         </mat-option>
+         <mat-option>
+           Manager
+         </mat-option>
+         <mat-option>
+           Student or Learning
+         </mat-option>
+         <mat-option>
+           Instructor or Teacher
+         </mat-option>
+         <mat-option>
+           Intern
+         </mat-option>
+         <mat-option>
+          Other
+         </mat-option>
+        </mat-select>
+      </mat-form-field>
+      <div class="info">Give us an idea of where you are at in your career</div> -->
+    <mat-form-field>
+      <input matInput placeholder="Company" >
+    </mat-form-field>
+    <div class="info">Could be your own company or one you work for</div>
+    <mat-form-field>
+      <input matInput placeholder="Website" >
+    </mat-form-field>
+    <div class="info">Could be your own or a company website</div>
+    <mat-form-field>
+      <input matInput placeholder="Locations" >
+    </mat-form-field>
+    <div class="info">City & state suggested (eg. Boston, MA)</div>
+    <mat-form-field>
+      <input matInput placeholder="Skills" >
+    </mat-form-field>
+    <div class="info">Please use comma separated values (eg. HTML,CSS,JavaScript,MEAN Stack)</div>
+    <mat-form-field>
+      <input matInput placeholder="Github Username" >
+    </mat-form-field>
+    <div class="info">If you want your latest repos and a Github link, include your username</div>
+    <br><br>
+    <textarea ng-model="myTextarea" placeholder="A short bio of yourself"></textarea>
+    <div class="info">Tell us a little about yourself</div>
+    <br>
+    <button mat-raised-button (click)="done()" type="button">
+      Add Social Network Links
+    </button>&nbsp;&nbsp;
+    <span>Optional</span>
+    <div [hidden]="on" class="networks">
+      <mat-form-field>
+        <input matInput placeholder="Twitter URL" >
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Facabook URL" >
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Youtube URL" >
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Linkedin URL" >
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="Instagram URL" >
+      </mat-form-field>
+
+    </div>
+     <br><br><br><br>
+    <button mat-raised-button (click)="btnclick()" color="primary" type="button">
+      Submit
+    </button>&nbsp;&nbsp;
+    <button mat-raised-button (click)="btnclick()"  type="button">
+      Go Back
+    </button>
+  </mat-card>
+</form>
+</div>
+
